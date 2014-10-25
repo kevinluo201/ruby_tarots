@@ -29,6 +29,14 @@ gem 'spring',        group: :development
 gem 'omniauth'
 gem 'omniauth-facebook'
 
+group :development do
+  gem "pry-nav"
+  gem "pry-remote"
+  gem "mocha"
+  gem "better_errors"
+  gem "binding_of_caller"
+end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
